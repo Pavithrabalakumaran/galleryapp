@@ -2,6 +2,7 @@
 .app-container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .gallery-container {
@@ -41,4 +42,9 @@
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
+}
+
+.thumbnails-list {
+  display: flex;
+  flex-direction: column;
 }
